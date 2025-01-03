@@ -13,16 +13,35 @@
     <!-- Header -->
     <header>
         <nav class="container flex items-center py-4 mt-4 sm:mt-12">      
-            <div class="py-1"><img src="./img/bookmark.png" alt="Logo">Bookmark</i></div>
-             <ul class="hidden sm:flex flex-1 justify-end items-center gap-12 text-bookmark-blue uppercase text-xs">
+            <div class="py-1 uppercase " ><i class="fa-solid fa-bookmark pe-2 text-bookmark-purple"></i>Bookmark</div>
+            <ul class="hidden sm:flex flex-1 justify-end items-center gap-12 text-bookmark-blue uppercase text-xs">
                 <li class="cursor-pointer"><a href="#">Features</a></li>
                 <li class="cursor-pointer"><a href="#">Pricing</a></li>
                 <li class="cursor-pointer"><a href="#">Contact</a></li>
                 <button type="button" class="bg-bookmark-red text-white rounded-md px-7 py-3 uppercase">Login</button>
             </ul>  
-            <div class="flex"></div>
+            <div class="flex sm:hidden flex-1 justify-end"><i class="text-2xl fa-solid fa-bars"></i></div>
         </nav>
     </header>
+    <!-- Hero -->
+     <hero>
+        <section class="relative container">
+            <div class="flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-28"></div>
+                <!-- Content -->
+                 <div class="flex flex-1 flex-col items-center lg:items-start">
+                    <h2 class="text-bookmark-blue text-3xl md:text-4 lg:text-5xl text-center lg:text-left mb-6">
+                        A Simple Bookmark Manager
+                    </h2>
+                    <p class="text-bookmark-grey text-lg text-center lg:text-left mb-6">A clean and simple interface to organize your 
+                        favorite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
+                        <div class="flex justify-center flex-wrap gap-6">
+                            <button type="button" class="btn btn-purple">Geti it on Chrome</button>
+                            <button type="button" class="btn btn-white">Get in on Firefox</button>
+                        </div>
+                    </p>
+                 </div>
+        </section>
+     </hero>
 
 
 
@@ -32,12 +51,5 @@
 
 
 
-
-    <main>
-    
-    </main>
-    <footer class="container py-12">
-        <p>&copy; 2023 Modern Landing Page. All rights reserved.</p>
-    </footer>
 </body>
 </html>
