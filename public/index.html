@@ -4,15 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bookmark Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/public/style.css">
 </head>
 <body class="font-Poppins">
     <!-- Header -->
     <header>
-        <nav class="container flex items-center py-4 mt-4 sm:mt-12">
-            <ul>
-                <div class="py-1"><img src="./imgs/logo-bookmark.svg" alt="Logoq"></div>
-            </ul>
+        <nav class="container flex items-center py-4 mt-4 sm:mt-12">      
+            <div class="py-1"><img src="./img/bookmark.png" alt="Logo">Bookmark</i></div>
+             <ul class="hidden sm:flex flex-1 justify-end items-center gap-12 text-bookmark-blue uppercase text-xs">
+                <li class="cursor-pointer"><a href="#">Features</a></li>
+                <li class="cursor-pointer"><a href="#">Pricing</a></li>
+                <li class="cursor-pointer"><a href="#">Contact</a></li>
+                <button type="button" class="bg-bookmark-red text-white rounded-md px-7 py-3 uppercase">Login</button>
+            </ul>  
+            <div class="flex"></div>
         </nav>
     </header>
 
